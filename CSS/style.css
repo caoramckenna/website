@@ -1,0 +1,69 @@
+html, body {
+  height: 100%;
+  background: #b4dfe5;
+  color: #222f5b;
+  padding: 0;
+  margin: 0;
+  font-weight: Bold 700;
+  font-family: 'Crimson+Text', serif;
+}
+header,
+nav,
+main, footer {
+  padding: 20px 30px;
+}
+
+header {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+main {
+  clear: both;
+}
+h1 {
+  font-family: "Merriweather", "serif";
+}
+nav {
+  font-family: "Merriweather", "serif";
+}
+header h2
+{
+  font-family: "Merriweather", "serif";
+  padding: 2px 2px 2px 2px;
+  border-width: 10px;
+  border-color: blue;
+}
+a {
+  color: #0066cc;
+}
+h1, h2 {
+  margin: 0; /* removes default space */
+}
+
+#profile {
+  float: left;
+}
+footer {
+  clear: both;
+}
+
+.home {
+  background: url(../images/background.jpg);
+background-repeat: no-repeat;
+background-position:center;
+background-size: cover;
+}
+
+
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -55px;
+}
+footer {
+  height: 55px;
+  background-color: white;
+  text-align: center;
+}
